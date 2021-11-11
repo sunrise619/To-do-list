@@ -35,7 +35,7 @@ class _HomeScreenState extends State<HomeScreen> {
             onTap: () async {
               List<String> res = await Navigator.pushNamed(
                   context, EditScreen.routeName,
-                  arguments: tasksData(tasks, index)) as List<String>;
+                  arguments: TasksData(tasks, index)) as List<String>;
               setState(() {});
             }),
         itemCount: tasks.length,

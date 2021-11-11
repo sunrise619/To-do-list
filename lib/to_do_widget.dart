@@ -32,8 +32,8 @@ class _ToDoWidgetState extends State<ToDoWidget> {
   }
 }
 
-class tasksData {
+class TasksData {
   List<String> tasks;
   int index;
-  tasksData(this.tasks, this.index);
+  TasksData(this.tasks, this.index);
 }

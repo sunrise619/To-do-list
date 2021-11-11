@@ -23,6 +23,7 @@ class AddTaskScreen extends StatelessWidget {
               onChanged: (String value) {
                 taskTitle = value;
               },
+              autofocus: true,
             ),
             ElevatedButton(
               onPressed: () {

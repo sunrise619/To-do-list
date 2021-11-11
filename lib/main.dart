@@ -17,7 +17,6 @@ class MyApp extends StatelessWidget {
       routes: {
         AddTaskScreen.routeName: (context) => AddTaskScreen(),
         EditScreen.routeName: (context) => EditScreen(),
-        HomeScreen.routeName: (context) => HomeScreen(),
       },
     );
   }

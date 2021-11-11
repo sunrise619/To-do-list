@@ -37,7 +37,6 @@ class _EditScreenState extends State<EditScreen> {
                     onPressed: () {
                       taskData.tasks.removeAt(taskData.index);
                       Navigator.pop(context, taskData.tasks);
-                      setState(() {});
                     },
                     child: Text('Delete'),
                     style: ElevatedButton.styleFrom(primary: Colors.red),
